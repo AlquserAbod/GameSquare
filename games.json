@@ -1,0 +1,7 @@
+{
+    "tictactoe": {
+        "Id": 0,
+        "title": "Tic Tac Toe",
+        "neadedPlayers": 2
+    }
+}
