@@ -127,6 +127,7 @@ export const GameContextProvider = ({ children }) => {
 
 
     const makeMove = (position) => {
+        setMyTurn(!myTurn);
         socket.emit('make_move', { room , position });
     };
 
