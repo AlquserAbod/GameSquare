@@ -1,6 +1,6 @@
 const Cross = () => {
   return (
-    <svg viewBox="0 0 24 24" width="60%" height="60%" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 24 24" width="70%" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g
             id="SVGRepo_tracerCarrier"
@@ -12,7 +12,7 @@ const Cross = () => {
             <path
             d="M19 5L5 19M5.00001 5L19 19"
             stroke="#fff" 
-            strokeWidth="2"
+            strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
             ></path>{" "}
