@@ -30,7 +30,7 @@ const TicTacToeBoard = () => {
       
       <table className=" w-full aspect-square  rounded-t-lg overflow-hidden  border-separate border-spacing-3">
           {chunkBoardIntoRows(board).map((row, rowIndex) => (
-            <tr key={rowIndex} className="w-1/3 h-1/3">
+            <tr key={rowIndex} className="w-1/3 h-1/4">
               {row.map((value, colIndex) => (
                 <Square
                   key={rowIndex * 3 + colIndex}
