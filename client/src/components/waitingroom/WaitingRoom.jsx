@@ -17,7 +17,6 @@ const WaitingRoom = ({ setPage }) => {
   
   useEffect(() => {
     if(room === null) {
-      console.log("from here");
       return setPage('')
     }
   },[room, setPage])
@@ -40,6 +39,7 @@ const WaitingRoom = ({ setPage }) => {
 
     startGame();
   }
+
   const handleLeaveRoom = () => {
     playClickSound();
     leaveRoom();

@@ -4,6 +4,7 @@ import { useRoomContext } from '../../../context/RoomContext'
 // eslint-disable-next-line react/display-name
 const LeaveRoomWarning = forwardRef((props, ref) => {
     const { leaveRoom } = useRoomContext();
+    
   return (
     <dialog id="waitMatchCompleteModal" ref={ref} className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">

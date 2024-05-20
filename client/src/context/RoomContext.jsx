@@ -111,6 +111,7 @@ export const RoomContextProvider = ({ children }) => {
         }
         socket.emit('leave_room', room.id);
         setRoom(null);
+        navigate('/');
     };
 
     const changeMemberRole = (memberId, role) => {

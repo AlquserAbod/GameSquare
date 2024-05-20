@@ -14,7 +14,6 @@ export default function App() {
 
 
   useEffect(() => {
-
       window.onpopstate = function() {
           alert("If you exit, you will not be able to return to the current game.");
           document.addEventListener('click', function() {
@@ -26,8 +25,6 @@ export default function App() {
 
         return confirm("Confirm refresh");
       }
-
-
   }, []);
 
 

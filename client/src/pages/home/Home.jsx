@@ -33,7 +33,7 @@ const Home = () => {
 
           {page === '' ? (
 
-            <div className=' flex justify-around gap-52 max-md:flex-col '>
+            <div className=' flex justify-around gap-52 flex-wrap'>
               
                 <button className="btn btn-neutral min-w-60 min-h-32 cursor-pointer hover:scale-110" onClick={() => {
                   playClickSound()
@@ -52,7 +52,7 @@ const Home = () => {
           (<CreateRoom  setPage={setPage}/>) : page === "waiting-room" ? (<WaitingRoom setPage={setPage}/>) : page == "join-room" ? (<JoinRoom setPage={setPage}/>) :
            (<></>)}
 
-
+          
       </div> 
       <div>
 
